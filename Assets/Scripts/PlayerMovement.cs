@@ -11,7 +11,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpForce = 8f;
     float gravityValue = -9.81f;
 
-    Transform cameraTransform;
     Vector3 playerVelocity;
     bool isGrounded;
 
