@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float jumpForce = 8f;
     float gravityValue = -9.81f;
 
+    Transform cameraTransform;
     Vector3 playerVelocity;
     bool isGrounded;
 
@@ -18,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         controller = GetComponent<CharacterController>();
+        cameraTransform = Camera.main.transform;
     }
 
     void Update()
@@ -32,6 +34,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Vector3 movement = new Vector3(x, 0, z);
+        movement = cameraTransform.forward * z + cameraTransform.right * x;
+        movement.y = 0f;
         controller.Move(movement * moveSpeed * Time.deltaTime);
 
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
