@@ -2,20 +2,26 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Goal : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    [SerializeField] GameObject winScreen;
+    [SerializeField] float XRotation;
+    [SerializeField] GameObject loseScreen;
 
     void Awake()
     {
-        winScreen.SetActive(false);
+        loseScreen.SetActive(false);
+    }
+
+    void Update()
+    {
+        
     }
 
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            winScreen.SetActive(true);
+            loseScreen.SetActive(true);
             GameManager.gameOver = true;
         }
     }
