@@ -16,6 +16,7 @@ public class Goal : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             winScreen.SetActive(true);
+            GameManager.gameOver = true;
         }
     }
 }

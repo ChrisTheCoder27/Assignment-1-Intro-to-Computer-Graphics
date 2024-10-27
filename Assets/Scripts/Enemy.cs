@@ -22,6 +22,7 @@ public class Enemy : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             loseScreen.SetActive(true);
+            GameManager.gameOver = true;
         }
     }
 }
