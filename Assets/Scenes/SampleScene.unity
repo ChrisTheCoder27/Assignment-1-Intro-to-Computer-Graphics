@@ -6110,6 +6110,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_renderMaterial: {fileID: 2100000, guid: 0dd5fad4c45e36d439bffd6ccacb22b5, type: 2}
+  m_renderMaterial2: {fileID: 2100000, guid: d08e574238d30db45b861749734ec53c, type: 2}
+  m_renderMaterial3: {fileID: 2100000, guid: fe1232b75ceea114db99b305c1d3728e, type: 2}
 --- !u!1001 &972668240
 PrefabInstance:
   m_ObjectHideFlags: 0
