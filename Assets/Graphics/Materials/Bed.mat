@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Bad
+  m_Name: Bed
   m_Shader: {fileID: 4800000, guid: d67d1b6cd1ccf4c4899849c7baac9384, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
