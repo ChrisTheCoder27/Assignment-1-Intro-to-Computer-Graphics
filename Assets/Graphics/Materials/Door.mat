@@ -64,11 +64,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
-        m_Texture: {fileID: 2800000, guid: 9152fc761d21f454994b6c6be5708cf3, type: 3}
+        m_Texture: {fileID: 2800000, guid: a31743c5568dcbf44902b9e2a50a3b8a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
-        m_Texture: {fileID: 2800000, guid: 9a8a9528e848aa64a9549ac53424192e, type: 3}
+        m_Texture: {fileID: 2800000, guid: de934590f5ac46343ae8c1876cc05403, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
