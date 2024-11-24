@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Wire Box
-  m_Shader: {fileID: 4800000, guid: d67d1b6cd1ccf4c4899849c7baac9384, type: 3}
+  m_Shader: {fileID: 4800000, guid: ccf86ec8dd481384994c4c38bac00eb0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -63,6 +63,14 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _myBump:
+        m_Texture: {fileID: 2800000, guid: b12f3b7639e4b1e418afdca0cb2c2b66, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuse:
+        m_Texture: {fileID: 2800000, guid: d69561700aec9d7439740a5c890b8b69, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - _BumpScale: 1
@@ -81,6 +89,7 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
+    - _mySlider: 1
     m_Colors:
     - _Color: {r: 0.8159487, g: 0.9056604, b: 0.84309834, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
