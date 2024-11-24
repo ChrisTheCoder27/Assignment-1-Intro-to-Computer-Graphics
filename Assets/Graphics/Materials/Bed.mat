@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Bed
-  m_Shader: {fileID: 4800000, guid: d67d1b6cd1ccf4c4899849c7baac9384, type: 3}
+  m_Shader: {fileID: 4800000, guid: ccf86ec8dd481384994c4c38bac00eb0, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -64,11 +64,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myBump:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c45f211f9ac108c4ca4b9e8819b5f0ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: f13f5f8c3113d6c4f91e70025dd30145, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
