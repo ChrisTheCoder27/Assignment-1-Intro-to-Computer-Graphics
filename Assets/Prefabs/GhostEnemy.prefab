@@ -168,9 +168,9 @@ MonoBehaviour:
   target: {fileID: 0}
   agent: {fileID: 3940162813800686918}
   idleDuration: 2
-  maxDistanceToView: 10
+  maxDistanceToView: 12
   minDistanceToAttack: 0
-  maxFieldOfView: 60
+  maxFieldOfView: 75
   waypoints: []
   enableDebug: 0
   currentState: 0
